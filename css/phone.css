@@ -1,0 +1,53 @@
+@media (width <= 360px) {
+  .tile,
+  .score {
+    width: 26vw !important;
+  }
+
+  .turn {
+    width: 120px;
+  }
+  .restart {
+    width: 50px;
+  }
+}
+
+
+@media (width <= 767px){
+  .main-wrapper,
+  .btn {
+    width: 95vw;
+  }
+  .player-choose {
+    width: 92vw;
+  }
+  .active-player {
+    width: 43.5vw;
+  }
+}
+@media (width <= 1200px) {
+  
+  .game-header {
+    gap: 42px;
+  }
+  .turn {
+    width: 130px;
+  }
+  .restart {
+    width: 50px;
+  }
+  .tile,
+  .score {
+    width: 94px;
+  }
+  .win-board p:nth-child(2) {
+    font-size: 20px;
+  }
+  .win-board .xmark-tile {
+    width: 17vw;
+  }
+  .winbtns div,
+  .restartbtns div {
+    width: 40vw !important;
+  }
+}

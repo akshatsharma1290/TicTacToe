@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
+      integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    
+    
+    <dialog class="modal">
+      <div class="win-board">
+  <p><span class="winplayer"></span> Won!</p>
+  <p class="round-winner"><span class="winround"></span> takes the round</p>  
+  <div class="winbtns">
+    <div class="quitbtn">quit</div>
+    <div class="nextbtn">next round</div>
+  </div>
+</div>
+</dialog>
+
+<dialog class="modal modal2">
+  <div class="restart-board">
+    <p>Are you Sure you want to restart?</p>
+    <div class=" restartbtns">
+
+      <div class="nextbtn yesbtn">Yes</div>
+      <div class="quitbtn nobtn">No</div>
+    </div>
+</div>
+  
+  
+    </dialog>
+
+    <header class="game-header">
+      <div class="logo">
+        <span class="xmark"></span>
+        <span class="circle"></span>
+      </div>
+      <div class="turn">
+        <span class="xmark turn-icon"></span>
+        <p>TURN</p>
+      </div>
+
+      <div class="restart">
+        <i class="fa-solid fa-arrow-rotate-right"></i>
+      </div>
+    </header>   
+
+      <main>
+
+
+
+          <div class="tiles">
+              <div class="area1 area">
+                  <div class="tile tile-1" data-tile="1" ></div>
+                  <div class="tile tile-2" data-tile="2" ></div>
+                  <div class="tile tile-3" data-tile="3" ></div>
+                </div>
+                <div class="area2 area">
+                  <div class="tile tile-4" data-tile="4" ></div>
+                  <div class="tile tile-5" data-tile="5" ></div>
+                  <div class="tile tile-6" data-tile="6" ></div>
+                  
+                </div>
+                <div class="area3 area">
+                  <div class="tile tile-7" data-tile="7" ></div>
+                  <div class="tile tile-8" data-tile="8" ></div>
+                  <div class="tile tile-9" data-tile="9" ></span>
+
+              </div>
+          </div>
+          <footer class="game-footer">
+            <div class="player1-score score">
+             <p class="user-score"> <span class="player1mark"></span> <span class="p1">(YOU)</span></p> 
+             <p class="score-count">0</p> 
+            </div>
+            <div class="tie-score score">
+             <p class="ties" >TIES</p>
+             <p class="score-count">0</p> 
+            </div>
+            <div class="player2-score score">
+             <p class="cpu-score"> <span class="player2mark"></span> <span class="p2">(CPU)</span></p> 
+             <p class="score-count">0</p>
+            </div>
+          </footer>
+      </main>
+
+<script src="js/game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="xmark"></span>
+        <span class="circle"></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-wrapper">
+        <p class="title">pick player 1's mark</p>
+        <div class="player-choose">
+          <span class="xmark diff"></span>
+          <span class="circle diff active-border"></span>
+          <span class="active-player"></span>
+          <span class="xcover cover"></span>
+          <span class="circlecover cover"></span>
+        </div>
+        <p class="sub-title">Remember - X Goes First</p>
+      </div>
+      <footer>
+        <div class="start-btns">
+          <a href="game.html" class="btn btn1" data-mode="cpu"
+            >new game (vs cpu)</a
+          >
+          <a href="game.html" class="btn btn2" data-mode="player"
+            >new game (vs player)</a
+          >
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

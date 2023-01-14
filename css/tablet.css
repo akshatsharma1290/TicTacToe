@@ -1,0 +1,12 @@
+
+@media (768px <= width <= 1200px){
+    .main-wrapper , .btn{
+        width: 40vw;
+    }
+    .player-choose{
+        width: 37vw;
+    }
+    .active-player{
+        width: 17.5vw;
+    }
+}
